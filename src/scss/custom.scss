@@ -1,24 +1,17 @@
-@import './carousel.css';
-
-// Your customize CSS
-
 @import "blocks/header";
 @import "blocks/intro";
 @import "blocks/services";
+@import "blocks/certificates";
+@import "blocks/history";
+@import "blocks/price";
+@import "blocks/new";
 
 
 
-
-// @font-face {
-//     font-family: 'Sheep Sans';
-//     src: url('../fonts/SheepSans.woff') format('woff');
-//     font-weight: 400;
-//     font-style: normal;
-// }
 
 body {
     font-family: Rubik, Fira Sans Condensed, sans-serif;
-    color: #949794;
+    color: #8EA83C;
 
 }
 

@@ -1,0 +1,19 @@
+.card {
+    background: #F2F5EA;
+    border-radius: 15px;
+}
+
+
+.price {
+    // position: relative;
+    background: url("../public/images/bg-price.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 30%;
+}
+
+.discount {
+    background: url("../public/images/bg-lite-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
