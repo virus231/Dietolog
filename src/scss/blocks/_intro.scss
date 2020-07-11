@@ -1,0 +1,14 @@
+.intro {
+    background: url("../public/images/intro-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-position-y: 30%;
+
+    &-block {
+        p {
+            // background: url("../public/images/bg-lite.png");
+            // background-repeat: no-repeat;
+            // background-size: cover;
+        }
+    }
+}

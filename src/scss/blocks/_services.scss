@@ -1,0 +1,12 @@
+
+.about-item {
+    background: #F2F5EA;
+    border-radius: 5px;
+    transition: all .33s;
+    cursor: pointer;
+
+    &:hover {
+        transform: translateY(-10px);
+        box-shadow: 0px 11px 15px 0px;
+    }
+}
