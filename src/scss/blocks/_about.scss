@@ -1,0 +1,32 @@
+.about {
+    &-title {
+        font-family: Fira Sans Condensed;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 40px;
+    }
+
+    .who {
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 17px;
+        color: #F99746;
+    }
+
+    &-desc {
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 17px;
+        color: #858585;
+    }
+
+    .win {
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        color: #858585;
+    }
+}

@@ -1,0 +1,19 @@
+.footer {
+    background: #EDF5E3;
+
+    &-bottom {
+        background: #E9E9E9;
+    }
+}
+
+.flag {
+    position: relative;
+    &::before {
+        content: url("../public/images/flag.svg");
+        position: absolute;
+        display: inline-block;
+        top: -80%;
+        right: 0;
+        bottom: 0;
+    }
+}

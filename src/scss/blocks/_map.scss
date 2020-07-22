@@ -1,0 +1,27 @@
+.contact-block {
+    background: url("../public/images/bg-contact.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 25%;
+    right: 10%;
+
+    &__title {
+        font-family: Fira Sans Condensed;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 45px;
+    }
+
+    a {
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+    }
+}
+
+iframe {
+    position: relative;
+}
+

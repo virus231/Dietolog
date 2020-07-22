@@ -5,10 +5,19 @@
     // background-position-y: 30%;
 
     &-block {
-        p {
-            // background: url("../public/images/bg-lite.png");
-            // background-repeat: no-repeat;
-            // background-size: cover;
+        span {
+            font-family: Rubik;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 25px;
+            color: #F99746;
+        }
+
+        h1 {
+            font-family: Fira Sans Condensed;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 70px;
         }
     }
 }
