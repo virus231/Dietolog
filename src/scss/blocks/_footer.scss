@@ -8,6 +8,11 @@
 
 .flag {
     position: relative;
+    font-family: Marck Script;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    
     &::before {
         content: url("../public/images/flag.svg");
         position: absolute;

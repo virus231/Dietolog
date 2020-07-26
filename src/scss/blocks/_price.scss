@@ -10,10 +10,63 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 30%;
+
+    h4 {
+        font-family: Fira Sans Condensed;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 50px;
+    }
+
+    h5 {
+        font-family: Fira Sans Condensed;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        color: #889824;
+    }
 }
 
 .discount {
     background: url("../public/images/bg-lite-2.png");
     background-repeat: no-repeat;
     background-size: cover;
+
+    span {
+        color: #F99746;
+
+    }
+
+    p {
+        font-family: Fira Sans Condensed;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 46px;
+        color: #8EA83C;
+    }
+}
+
+.duration {
+    p {
+        font-family: Fira Sans Condensed;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+    }
+
+    div {
+        font-family: Fira Sans Condensed;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        color: #889824;
+    }
+}
+
+.num {
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    color: white
 }

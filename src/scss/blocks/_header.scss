@@ -6,6 +6,16 @@
 }
 
 
+.social {
+    svg {
+        transition: all .33s;
+
+        &:hover {
+            fill: #F99746;
+        }
+    }
+}
+
 .nav {
     a {
         font-family: Fira Sans Condensed;
@@ -14,9 +24,17 @@
         font-size: 17px;
         color: #8EA83C;
         transition: all .33s;
+        padding-right: 35px;
+        border-right: 3px solid white;
 
         &:hover {
             color: #F99746;
         }
+
+        &:last-child {
+            border-right: none;
+        }
     }
+
+    
 }
