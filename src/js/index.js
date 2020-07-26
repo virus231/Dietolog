@@ -35,6 +35,8 @@ $(document).ready(function() {
         },
       },
     ],
+    appendArrows: $('.content'),
+    appendDots: $('.content'),
   });
 });
 
