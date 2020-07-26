@@ -13,6 +13,7 @@ $(document).ready(function() {
 
   $('.center').slick({
     centerMode: true,
+    arrows: false,
     centerPadding: '0px',
     slidesToShow: 3,
     responsive: [
@@ -35,8 +36,14 @@ $(document).ready(function() {
         },
       },
     ],
-    appendArrows: $('.content'),
     appendDots: $('.content'),
+  });
+  $('button.prev').on('click', function() {
+    $('.center').slick('slickPrev');
+  });
+
+  $('button.next').on('click', function() {
+    $('.center').slick('slickNext');
   });
 });
 
